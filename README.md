@@ -1,16 +1,16 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Mohamed Ouaked — Systems that trade, think, and ship" src="assets/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mark-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/mark-light.svg">
+  <img alt="Isometric mark" src="assets/mark-dark.svg" width="132">
 </picture>
 
-<br>
+### Systems that trade, think, and ship.
 
-### Mohamed Ouaked
+<sub><samp>QUANTITATIVE SYSTEMS &nbsp;/&nbsp; AI ENGINEERING &nbsp;/&nbsp; FULL-STACK</samp></sub>
 
-**I build the full stack of a trading idea** — the research, the engine, and the screen that makes it legible.
+**Mohamed Ouaked** — I build the full stack of a trading idea: the research, the engine, and the screen that makes it legible.
 
 <sub>📍 Tizi Ouzou, Algeria · UTC+1 &nbsp;·&nbsp; Open to remote & relocation</sub>
 
