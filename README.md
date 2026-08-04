@@ -79,63 +79,60 @@
 
 ## <samp>03</samp> &nbsp;— &nbsp;Featured Work
 
-<br>
+<table>
+<tr>
+<td valign="top" width="50%">
 
-### <samp>01</samp> &nbsp;Kesh Quant &nbsp;<sub>· autonomous perps engine + terminal</sub>
+**Kesh Quant** &nbsp;<sub>· autonomous perps engine</sub>
+<br><sub>*Markets run 24/7. Traders don't.*</sub>
 
-> Markets run 24/7. Traders don't.
+Hyperliquid WebSocket → features → confluence filter → risk-sized orders, continuously on GCP. A Next.js terminal reads engine state over an authenticated tunnel, so watching never blocks trading.
 
-**Problem** &nbsp;Running unattended means trusting a process you can't watch.
-<br>**Built** &nbsp;Hyperliquid WebSocket → features → confluence filter → risk-sized orders, continuously on GCP. A separate Next.js terminal reads engine state over an authenticated tunnel, so watching never blocks trading.
-<br>**Result** &nbsp;Runs unattended and stays inspectable in real time.
-
-`Python` `FastAPI` `Hyperliquid` `WebSockets` `Next.js` `GCP`
+<sub>`Python` `FastAPI` `Hyperliquid` `Next.js` `GCP`</sub>
 
 [**Repository →**](https://github.com/nate0004/crypto-bot) &nbsp;<sub>🔒 private deployment</sub>
 
-<br>
+</td>
+<td valign="top" width="50%">
 
-### <samp>02</samp> &nbsp;ORB Terminal &nbsp;<sub>· backtesting + paper-trading research</sub>
+**ORB Terminal** &nbsp;<sub>· backtesting + paper trading</sub>
+<br><sub>*A win rate without a replay is a rumour.*</sub>
 
-> A win rate without a replay is a rumour.
+Every backtested trade replays candle-by-candle against the higher-timeframe ICT/SMC bias that allowed it. Persistent paper account; the engine is under test, so refactors can't rewrite history.
 
-**Problem** &nbsp;Summary stats hide *why* a strategy loses — so you can't fix it.
-<br>**Built** &nbsp;Every backtested trade replays candle-by-candle against the higher-timeframe ICT/SMC bias that allowed it. Persistent paper account, engine under test so refactors can't silently rewrite history.
-<br>**Result** &nbsp;Iteration moved from arguing about averages to watching trades fail.
-
-`Next.js 14` `Drizzle` `Neon` `lightweight-charts` `Vitest`
+<sub>`Next.js 14` `Drizzle` `Neon` `lightweight-charts` `Vitest`</sub>
 
 <sub>🔒 Private repo — walkthrough on request.</sub>
 
-<br>
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
-### <samp>03</samp> &nbsp;Polymarket vs. Wall Street &nbsp;<sub>· probability divergence dashboard</sub>
+**Polymarket vs. Wall Street** &nbsp;<sub>· probability divergence</sub>
+<br><sub>*Two markets, one event, two prices.*</sub>
 
-> Two markets, one event, two prices. The spread is the signal.
+Normalises prediction-market odds and derivatives pricing into one probability space — CME FedWatch for rate events, Deribit BTC options via Black-Scholes N(d₂). **Sub-100 ms** via LRU caching.
 
-**Problem** &nbsp;Prediction markets and derivatives venues price identical events differently — in incompatible units.
-<br>**Built** &nbsp;Normalises both into one probability space: CME FedWatch futures-implied for rate events, Deribit BTC options via Black-Scholes N(d₂) for crypto, CME for equity-linked events like SPY.
-<br>**Result** &nbsp;Retail-vs-institutional spread readable live. **Sub-100 ms** ingestion via in-memory LRU caching.
-
-`Next.js 14` `TypeScript` `Deribit` `CME FedWatch` `Black-Scholes`
+<sub>`Next.js 14` `Deribit` `CME FedWatch` `Black-Scholes`</sub>
 
 [**Repository →**](https://github.com/nate0004/polymarket-vs-wallstreet) &nbsp;<sub>🔒 no hosted instance</sub>
 
-<br>
+</td>
+<td valign="top" width="50%">
 
-### <samp>04</samp> &nbsp;ICT 2022 Signal Bot &nbsp;<sub>· signal-only intraday engine, NAS100</sub>
+**ICT 2022 Signal Bot** &nbsp;<sub>· signal-only, NAS100</sub>
+<br><sub>*The hard part is choosing what not to automate.*</sub>
 
-> The hard part of automation is choosing what *not* to automate.
+Detection logic is pure functions with zero I/O: live feeds it closed M1 bars, backtest replays history through the identical path. Signals stored with outcomes. It never places an order.
 
-**Problem** &nbsp;Any drift between backtested rules and live rules invalidates the research.
-<br>**Built** &nbsp;One engine, two modes — detection logic is pure functions with zero I/O. Live feeds it closed M1 bars from a socket; backtest replays history through the identical path. Signals scored, annotated by an LLM with a deterministic fallback, stored with outcomes.
-<br>**Result** &nbsp;Backtest and live match structurally. Every alert becomes a datapoint. It never places an order.
-
-`Python` `WebSockets` `Capital.com` `SQLite` `Telegram`
+<sub>`Python` `Capital.com` `SQLite` `Telegram`</sub>
 
 [**Repository →**](https://github.com/nate0004/ict-signal-bot)
 
-<br>
+</td>
+</tr>
+</table>
 
 <details>
 <summary><b>&nbsp;Also in the workshop</b> &nbsp;<sub>— six more</sub></summary>
