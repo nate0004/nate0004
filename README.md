@@ -112,8 +112,8 @@ Automation should remove the repetition, not the judgement. The bot sizes the po
 | **Backend** | Python 3.11 · FastAPI · Node.js · Bun · REST & WebSocket services · JWT / httpOnly session auth · Cron & scheduled workers |
 | **AI & Agents** | Anthropic Claude API · LLM-driven signal rationale · Multi-phase agentic pipelines · Prompt & tool design · Deterministic fallbacks for every model call |
 | **Data** | PostgreSQL (Neon) · Prisma · Drizzle ORM · SQLite · Pandas / NumPy · CSV ingestion & column auto-mapping · Time-series normalisation |
-| **Quant & Finance** | Backtesting engines · Risk & position sizing · Black-Scholes · Futures-implied probability · ORB · ICT / SMC (liquidity sweeps, FVG, MSS, displacement) · RSI, ATR, Bollinger, Donchian, Stochastic, Williams %R · Expectancy, profit factor, R-multiples |
-| **Markets & Venues** | Hyperliquid L1 Perps · MetaTrader 5 · Capital.com (REST + WS) · Polymarket · CME FedWatch · `yahoo-finance2` |
+| **Quant & Finance** | Backtesting engines · Risk & position sizing · Black-Scholes N(d₂) · Futures-implied probability · ORB · ICT / SMC (liquidity sweeps, FVG, MSS, displacement) · RSI, ATR, Bollinger, Donchian, Stochastic, Williams %R · Expectancy, profit factor, R-multiples |
+| **Markets & Venues** | Hyperliquid L1 Perps · MetaTrader 5 · Capital.com (REST + WS) · Polymarket · Deribit options chains · CME FedWatch · `yahoo-finance2` |
 | **DevOps** | GCP compute (24/7 engines) · Vercel · GitHub Actions · Pytest · Vitest · Telegram Bot API for alerting · Structured logging & health checks |
 
 <br>
@@ -173,9 +173,9 @@ Automation should remove the repetition, not the judgement. The bot sizes the po
 | | |
 | :--- | :--- |
 | **Problem** | Prediction markets and institutional derivatives venues price the *same* binary macroeconomic events — a Fed cut at a given FOMC, a threshold breach by a date — at materially different probabilities. Those divergences are informative, but they're buried in incompatible data sources and quoted in incompatible units. |
-| **Approach** | Aggregate decentralised prediction-market odds and traditional venue data, then normalise both into a common probability space using institutional pricing methodology — futures-implied probability for rate events, Black-Scholes-derived probabilities for options-implied ones. The dashboard surfaces retail-vs-institutional sentiment on identical events, side by side, in real time. |
-| **Stack** | `Next.js 14` `TypeScript` `Tailwind CSS` `Polymarket API` `CME FedWatch` `Black-Scholes` |
-| **Outcome** | A single view where the gap between decentralised and institutional pricing is directly readable — turning a cross-venue comparison that previously took manual spreadsheet work into a live analytics surface. |
+| **Approach** | Aggregate decentralised prediction-market odds and traditional venue data, then normalise both into a common probability space using institutional pricing methodology. Rate events resolve through futures-implied probability from CME FedWatch; crypto events derive theirs from Deribit BTC options chains via Black-Scholes **N(d₂)**, with CME covering the remaining equity-linked events such as SPY. The dashboard surfaces retail-vs-institutional sentiment on identical events, side by side, in real time. |
+| **Stack** | `Next.js 14` `TypeScript` `Tailwind CSS` `Polymarket API` `Deribit API` `CME FedWatch` `Black-Scholes N(d₂)` `In-memory LRU cache` |
+| **Outcome** | A single view where the gap between decentralised and institutional pricing is directly readable — turning a cross-venue comparison that previously took manual spreadsheet work into a live analytics surface. High-throughput ingestion holds **sub-100 ms** response times via in-memory LRU caching. |
 
 **[Repository →](https://github.com/nate0004/polymarket-vs-wallstreet)** &nbsp;·&nbsp; <sub>🔒 Runs locally against live market data — no hosted instance.</sub>
 
