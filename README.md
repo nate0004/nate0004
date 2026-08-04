@@ -1,261 +1,418 @@
-[README.md](https://github.com/user-attachments/files/30698255/README.md)
 <div align="center">
 
-<!-- Dynamic Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,11,15,26&height=220&section=header&text=Mohamed%20Ouaked&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Fintech%20%26%20Quantitative%20Systems&descSize=20&descAlignY=62" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Moha — Systems that trade, think, and ship" src="assets/hero-dark.svg" width="100%">
+</picture>
 
-<!-- Animated Typing Banner -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&height=45&lines=Building+Quantitative+Finance+%26+Automation+Systems;Python+%E2%80%A2+TypeScript+%E2%80%A2+Next.js+%E2%80%A2+GCP;Options-Implied+Probability+Models+%26+Risk+Limits;Accounting+%26+Finance+BSc+%2B+Full-Stack+Engineering" alt="Typing SVG" />
-</a>
+<br>
 
-<br/>
+### Mohamed Ouaked
 
-<!-- Status Badges -->
-[![Location](https://img.shields.io/badge/📍_Location-Tizi_Ouzou,_Algeria-1e293b?style=for-the-badge&logoColor=white)](#)
-[![Timezone](https://img.shields.io/badge/⏰_Timezone-UTC%2B1_(EU_Overlap_%7C_US_East)-0f172a?style=for-the-badge&logoColor=white)](#)
-[![Relocation](https://img.shields.io/badge/🚀_Open_To-Remote_%26_Relocation-0284c7?style=for-the-badge&logoColor=white)](#)
-[![Education](https://img.shields.io/badge/🎓_BSc-Accounting_%26_Finance-059669?style=for-the-badge&logoColor=white)](#)
+**I build the full stack of a trading idea** — the research that finds the edge, the engine that executes it, and the interface that makes it legible.
 
-<br/>
+<sub>Quantitative systems · Autonomous agents · Financial analytics · Full-stack product</sub>
 
----
+<sub>📍 Tizi Ouzou, Algeria · UTC+1 &nbsp;·&nbsp; Open to remote & relocation</sub>
+
+<br>
+
+[**Case studies**](#04--featured-work) &nbsp;·&nbsp; [**Arsenal**](#03--technical-arsenal) &nbsp;·&nbsp; [**Architecture**](#06--how-i-build) &nbsp;·&nbsp; [**Experience**](#08--experience--credentials) &nbsp;·&nbsp; [**Contact**](#09--get-in-touch)
 
 </div>
 
-## 👨‍💻 About Me
+<br>
 
-> **Full-stack developer building quantitative finance engines, options risk systems, and autonomous workflow pipelines.**
+<img src="assets/divider.svg" width="100%" alt="">
 
-I bridge the gap between **high-level financial theory** and **robust software engineering**. Currently completing a BSc in Accounting & Finance, I directly implement financial models in code—translating options-implied probability equations (Black-Scholes $N(d_2)$), automated risk limits, and real-time market data pipelines into production-ready software deployed on **GCP, Vercel, and Netlify**.
+## <samp>01</samp> &nbsp;— &nbsp;Current Mission
 
-* 🔭 **Currently Building**: Low-latency perpetual futures execution engines & market divergence trackers.
-* 📈 **Quant Focus**: Options pricing models, position sizing, automated stop-loss/daily loss limits, backtesting.
-* 🤖 **Automation**: AI-driven lead generation & autonomous deployment pipelines (Anthropic Claude API + Vercel Cron).
-* 🗣️ **Languages**: English (C1 Professional), French (C2 Native/Bilingual), Arabic (Native).
+> Most trading systems die in one of two places: a backtest nobody can reproduce, or a production deployment nobody can see inside. I build for both ends.
 
-<br/>
+<table>
+<tr>
+<td valign="top" width="50%">
 
----
+**🛠 &nbsp;Building**
 
-## 🛠️ Tech Stack & Quant Matrix
+**Kesh Quant** — an autonomous 24/7 quantitative perpetual-futures engine on Hyperliquid L1, paired with a real-time hedge-fund terminal. Two-tier by design: a high-throughput Python engine on GCP, a Next.js terminal on Vercel, joined by an authenticated REST/WebSocket tunnel.
 
-<div align="center">
+**ORB Terminal** — a research environment for opening-range-breakout strategies with an ICT/SMC higher-timeframe bias filter, candle-by-candle replay of every execution, and a persistent paper account.
 
-### 💻 Languages & Core Engineering
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+</td>
+<td valign="top" width="50%">
 
-### 📊 Quant & Financial Engineering
-![Black Scholes](https://img.shields.io/badge/Black--Scholes_N(d2)-00F0FF?style=for-the-badge&logo=codeforces&logoColor=black)
-![Options Pricing](https://img.shields.io/badge/Deribit_&_CME_API-111827?style=for-the-badge&logo=chartdotjs&logoColor=00F0FF)
-![Risk Management](https://img.shields.io/badge/Automated_Risk_Limits-DC2626?style=for-the-badge&logo=shield&logoColor=white)
-![Backtesting](https://img.shields.io/badge/Historical_Backtesting-059669?style=for-the-badge&logo=analytics&logoColor=white)
+**📡 &nbsp;Learning**
 
-### ⚡ Frontend & UI Frameworks
-![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+**Market microstructure** — order-book dynamics, slippage modelling, and the gap between a fill in a backtest and a fill in production.
 
-### 🗄️ Backend, Databases & Cloud
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Neon Postgres](https://img.shields.io/badge/Neon_Postgres-00E599?style=for-the-badge&logo=postgresql&logoColor=black)
-![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest_(TDD)-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+**Regime detection** — statistical and ML approaches to knowing *when* a strategy should be switched off.
 
-### 🤖 AI, Automation & Integrated APIs
-![Anthropic Claude API](https://img.shields.io/badge/Anthropic_Claude_API-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
-![Hyperliquid API](https://img.shields.io/badge/Hyperliquid_Perp_API-7C3AED?style=for-the-badge&logo=crypto&logoColor=white)
-![Google Maps API](https://img.shields.io/badge/Google_Maps_API-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Gmail OAuth2](https://img.shields.io/badge/Gmail_OAuth_2.0-EA4335?style=for-the-badge&logo=gmail&logoColor=white)
+**Agentic systems** — LLM pipelines that do real operational work: reasoning over market context, drafting outreach, running multi-phase workflows unattended.
 
-</div>
-
-<br/>
-
----
-
-## 🚀 Featured Projects
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📈 Futures Trading Terminal</h3>
-      <p align="center">
-        <a href="https://github.com/nate0004/crypto-bot">
-          <img src="https://img.shields.io/badge/Repository-crypto--bot-00F0FF?style=for-the-badge&logo=github" />
-        </a>
-      </p>
-      <ul>
-        <li><b>Core Stack:</b> Python, Next.js, GCP, Vercel, Pytest, Hyperliquid API</li>
-        <li><b>Execution & Risk:</b> Quantitative trading engine deployed on GCP executing perpetual futures orders against Hyperliquid.</li>
-        <li><b>Automated Limits:</b> Real-time position sizing & strict daily loss limit enforcement before order dispatch.</li>
-        <li><b>Backtesting & TDD:</b> Strategy validation over historical market datasets backed by a robust test-driven Pytest suite.</li>
-        <li><b>Live Dashboard:</b> Next.js real-time position tracking & P&L monitoring dashboard hosted on Vercel.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🔮 Polymarket vs Wall Street</h3>
-      <p align="center">
-        <a href="https://github.com/nate0004/polymarket-vs-wallstreet">
-          <img src="https://img.shields.io/badge/Repository-polymarket--vs--wallstreet-7C3AED?style=for-the-badge&logo=github" />
-        </a>
-      </p>
-      <ul>
-        <li><b>Core Stack:</b> Next.js, React, TypeScript, Tailwind, Deribit & CME FedWatch APIs</li>
-        <li><b>Divergence Tracker:</b> Live engine comparing prediction market odds against options-implied probabilities for macro events.</li>
-        <li><b>Options Math:</b> Derives implied probability from Deribit BTC & SPY options chains using Black-Scholes $N(d_2)$.</li>
-        <li><b>Sub-100ms Latency:</b> High-throughput data ingestion maintained under 100 ms response times via in-memory LRU caching.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3 align="center">🤖 B2B Sales Automation Platform</h3>
-      <p align="center">
-        <a href="https://github.com/nate0004/outreach-dashboard-v2">
-          <img src="https://img.shields.io/badge/Repository-outreach--dashboard--v2-059669?style=for-the-badge&logo=github" />
-        </a>
-      </p>
-      <ul>
-        <li><b>Core Stack:</b> Next.js 14, TypeScript, Neon Postgres, Drizzle ORM, Claude API, Gmail API, Vercel Cron</li>
-        <li><b>Lead Sourcing:</b> End-to-end scraper pipeline discovering local businesses lacking a digital footprint via Google Maps API.</li>
-        <li><b>AI Site Generator:</b> Uses Anthropic Claude API to generate bespoke landing page designs and auto-deploy them to Vercel/Netlify zero-touch.</li>
-        <li><b>Automated Outreach:</b> Per-lead follow-up sequence automation via Vercel Cron jobs and OAuth 2.0 Gmail API integration.</li>
-      </ul>
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
-<br/>
+<br>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
-## 🧮 Quantitative Architecture & Data Pipelines
+## <samp>02</samp> &nbsp;— &nbsp;Engineering Philosophy
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### `01` &nbsp;Backtest before belief
+
+An edge you cannot reproduce is a story, not a strategy. Every system starts as a hypothesis with an out-of-sample test attached, and gets deleted if the test disagrees.
+
+</td>
+<td valign="top" width="50%">
+
+### `02` &nbsp;One engine, two modes
+
+Backtest and live run the *exact same* code. The engine is pure functions with no I/O — live feeds it closed bars from a socket, the backtester replays history. Divergence between research and production is a bug, not a fact of life.
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+### `03` &nbsp;Ship the dashboard with the system
+
+An autonomous process you cannot observe is an autonomous liability. Every engine I deploy ships with the surface that explains what it just did and why.
+
+</td>
+<td valign="top" width="50%">
+
+### `04` &nbsp;Automate the work, own the decision
+
+Automation should remove the repetition, not the judgement. The bot sizes the position; the human sets the risk budget. The pipeline drafts the email; the human owns the relationship.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## <samp>03</samp> &nbsp;— &nbsp;Technical Arsenal
+
+<sub>Grouped by the problem it solves, not by the logo on the sticker.</sub>
+
+<br>
+
+| Domain | Stack |
+| :--- | :--- |
+| **Frontend** | TypeScript · React · Next.js 14 (App Router) · Tailwind CSS · shadcn/ui · Recharts · TradingView `lightweight-charts` · `next-themes` |
+| **Backend** | Python 3.11 · FastAPI · Node.js · Bun · REST & WebSocket services · JWT / httpOnly session auth · Cron & scheduled workers |
+| **AI & Agents** | Anthropic Claude API · LLM-driven signal rationale · Multi-phase agentic pipelines · Prompt & tool design · Deterministic fallbacks for every model call |
+| **Data** | PostgreSQL (Neon) · Prisma · Drizzle ORM · SQLite · Pandas / NumPy · CSV ingestion & column auto-mapping · Time-series normalisation |
+| **Quant & Finance** | Backtesting engines · Risk & position sizing · Black-Scholes · Futures-implied probability · ORB · ICT / SMC (liquidity sweeps, FVG, MSS, displacement) · RSI, ATR, Bollinger, Donchian, Stochastic, Williams %R · Expectancy, profit factor, R-multiples |
+| **Markets & Venues** | Hyperliquid L1 Perps · MetaTrader 5 · Capital.com (REST + WS) · Polymarket · CME FedWatch · `yahoo-finance2` |
+| **DevOps** | GCP compute (24/7 engines) · Vercel · GitHub Actions · Pytest · Vitest · Telegram Bot API for alerting · Structured logging & health checks |
+
+<br>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## <samp>04</samp> &nbsp;— &nbsp;Featured Work
+
+<sub>Four systems, presented the way I'd present them to a fund. Problem, approach, stack, outcome.</sub>
+
+<br>
+
+### <samp>CASE STUDY 01</samp> &nbsp;· &nbsp;Kesh Quant
+
+**Autonomous quantitative crypto trading engine & terminal**
+
+> Markets run 24/7. Discretionary traders do not.
+
+| | |
+| :--- | :--- |
+| **Problem** | Perpetual-futures markets never close, but a human's attention does. Any edge that depends on being awake at 03:00 isn't an edge — it's a rota. Running unattended, though, means trusting a process you cannot watch. |
+| **Approach** | A decoupled two-tier architecture. A high-throughput Python engine ingests Hyperliquid WebSocket candles and order-book data, computes features (FVG, supply/demand, market-structure shifts, classical TA), passes them through a confluence filter, and sizes positions through a dedicated risk engine — running continuously on GCP. A separate Next.js terminal on Vercel reads engine state over an authenticated REST/WebSocket tunnel, so observation never blocks execution. |
+| **Stack** | `Python 3.11` `FastAPI` `Hyperliquid SDK` `WebSockets` `Pytest` `Next.js 14` `TypeScript` `GCP` `Vercel` |
+| **Outcome** | A trading system that runs unattended and stays fully observable — the engine's decisions are inspectable in real time rather than reconstructed from logs after the fact. Risk logic lives in one place instead of being scattered across strategy code. |
+
+**[Repository →](https://github.com/nate0004/crypto-bot)** &nbsp;·&nbsp; <sub>🔒 Terminal runs against a private deployment — walkthrough available on request.</sub>
+
+<br>
+
+<img src="assets/rule.svg" width="100%" alt="">
+
+### <samp>CASE STUDY 02</samp> &nbsp;· &nbsp;ORB Terminal
+
+**Backtesting & paper-trading research environment**
+
+> A win rate without a replay is a rumour.
+
+| | |
+| :--- | :--- |
+| **Problem** | Opening-range-breakout strategies look excellent in aggregate statistics and awful in specific trades. Summary metrics hide *why* a system loses — and without the why, you can't fix the entry, the filter, or the exit. |
+| **Approach** | A research terminal built around inspectability. Every backtested execution can be replayed candle-by-candle on a TradingView chart alongside the higher-timeframe ICT/SMC bias that permitted it. Full analytics sit on top of a persistent paper account, and the strategy engine is covered by a dedicated test suite so a refactor can't silently change historical results. Simulation-only by design — the research surface places no live orders. |
+| **Stack** | `Next.js 14` `TypeScript` `Drizzle ORM` `Neon Postgres` `lightweight-charts` `Recharts` `Tailwind` `shadcn/ui` `Vitest` |
+| **Outcome** | Strategy iteration moved from arguing about averages to watching individual trades fail — which is where the actual parameter changes come from. Paper state persists across sessions, so forward-testing survives a browser refresh. |
+
+<sub>🔒 Private repository — happy to walk through the architecture and engine design on request.</sub>
+
+<br>
+
+<img src="assets/rule.svg" width="100%" alt="">
+
+### <samp>CASE STUDY 03</samp> &nbsp;· &nbsp;Polymarket vs. Wall Street
+
+**Cross-venue probability divergence dashboard**
+
+> Two markets, one event, two prices. The spread is the signal.
+
+| | |
+| :--- | :--- |
+| **Problem** | Prediction markets and institutional derivatives venues price the *same* binary macroeconomic events — a Fed cut at a given FOMC, a threshold breach by a date — at materially different probabilities. Those divergences are informative, but they're buried in incompatible data sources and quoted in incompatible units. |
+| **Approach** | Aggregate decentralised prediction-market odds and traditional venue data, then normalise both into a common probability space using institutional pricing methodology — futures-implied probability for rate events, Black-Scholes-derived probabilities for options-implied ones. The dashboard surfaces retail-vs-institutional sentiment on identical events, side by side, in real time. |
+| **Stack** | `Next.js 14` `TypeScript` `Tailwind CSS` `Polymarket API` `CME FedWatch` `Black-Scholes` |
+| **Outcome** | A single view where the gap between decentralised and institutional pricing is directly readable — turning a cross-venue comparison that previously took manual spreadsheet work into a live analytics surface. |
+
+**[Repository →](https://github.com/nate0004/polymarket-vs-wallstreet)** &nbsp;·&nbsp; <sub>🔒 Runs locally against live market data — no hosted instance.</sub>
+
+<br>
+
+<img src="assets/rule.svg" width="100%" alt="">
+
+### <samp>CASE STUDY 04</samp> &nbsp;· &nbsp;ICT 2022 Signal Bot
+
+**Signal-only intraday engine for the Nasdaq 100**
+
+> The hardest part of automation is deciding what to *not* automate.
+
+| | |
+| :--- | :--- |
+| **Problem** | The ICT 2022 model is a precise sequence — liquidity sweep, displacement with a fair-value gap, market-structure shift, retrace into the FVG — but detecting it live requires stateful bar-by-bar logic, and any drift between the backtested rules and the live rules invalidates the research entirely. |
+| **Approach** | One engine, two modes. The detection logic is pure functions and classes with zero I/O: live mode feeds it closed M1 bars from a Capital.com WebSocket, backtest mode replays historical bars through the identical code path. Signals are scored, composed into entry / stop / target / R:R, annotated with an LLM-generated rationale (with a deterministic fallback when the model is unavailable), delivered to Telegram, and persisted to SQLite with outcomes for later review. Restricted to London and New York killzones — and it never places an order. |
+| **Stack** | `Python` `WebSockets` `Capital.com API` `SQLite` `LLM rationale layer` `Telegram Bot API` |
+| **Outcome** | Backtest and live results are structurally guaranteed to match, because they execute the same functions. Every delivered signal is stored with its outcome, which turns the alert feed into a growing dataset for evaluating the model rather than a stream of disposable notifications. |
+
+**[Repository →](https://github.com/nate0004/ict-signal-bot)**
+
+<br>
+
+<img src="assets/rule.svg" width="100%" alt="">
+
+<details>
+<summary><b>&nbsp;Also in the workshop</b> &nbsp;<sub>— six more systems</sub></summary>
+
+<br>
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **[TradeJournal](https://github.com/nate0004/trading-journal)** | A fast, CSV-first trading journal focused on the metrics that actually reveal an edge — expectancy, profit factor, avg R:R, equity curve, performance split by pair, tag, and session. | `Next.js 14` `Prisma` `PostgreSQL` `Recharts` |
+| **[Cold Outreach Pipeline v2](https://github.com/nate0004/outreach-dashboard-v2)** | An autonomous four-phase B2B pipeline: lead generation → AI-generated mockup landing pages → AI cold emails → automated follow-up cron. | `Next.js` `Neon` `Drizzle` `Claude API` `Google Places` |
+| **[Stock Checker](https://github.com/nate0004/stock-checker)** | Multi-ticker daily scanner computing RSI, Stochastic, Bollinger, Donchian, Williams %R and ATR-based stop / target / trailing levels, with weighted BUY-HOLD-SELL scoring and chart-pattern detection. | `TypeScript` `Bun` `yahoo-finance2` |
+| **[OVN Breakout Bots](https://github.com/nate0004/ovn-breakout-bot)** | The overnight-range breakout strategy productionised across instruments — [NAS100](https://github.com/nate0004/nas100-ovn-bot) and [MNQ](https://github.com/nate0004/mnq-ovn-bot) — executing through MetaTrader 5 with Telegram alerting. | `Python` `MetaTrader5` `Telegram` |
+| **[Kesh Investment](https://github.com/nate0004/Kesh-Investment)** | Investment-facing product surface for the Kesh systems. | `TypeScript` `Next.js` |
+| **[Gamified Journal](https://github.com/nate0004/gamified-journal)** | Trading discipline treated as a game loop — streaks, scoring and progression applied to process adherence rather than P&L. | `JavaScript` |
+
+</details>
+
+<br>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## <samp>05</samp> &nbsp;— &nbsp;The Journey
+
+<sub>Expand any chapter.</sub>
+
+<br>
+
+<details>
+<summary><b><samp>2024</samp> &nbsp;· &nbsp;Foundations</b> &nbsp;— <sub>first commits, market data, Python</sub></summary>
+
+<br>
+
+Started with the smallest honest question: *can I get clean market data and compute something true from it?* Python, pandas, indicator maths from first principles rather than from a library I didn't understand. Most of what I built here was thrown away — deliberately. The output wasn't code, it was the working knowledge of how price data actually behaves once you touch it.
+
+</details>
+
+<details>
+<summary><b><samp>2025</samp> &nbsp;· &nbsp;Research & Strategy</b> &nbsp;— <sub>backtesting, ICT/SMC, opening-range breakout</sub></summary>
+
+<br>
+
+The year of learning that *a strategy is a hypothesis*. Built backtesting harnesses before building strategies, studied ICT/SMC market structure alongside classical breakout models, and started measuring everything in expectancy and R-multiples instead of win rate. The core discipline formed here: if a result can't survive out-of-sample, it doesn't get deployed.
+
+</details>
+
+<details>
+<summary><b><samp>2026 · H1</samp> &nbsp;· &nbsp;Full-Stack Terminals</b> &nbsp;— <sub>Next.js, Postgres, analytics surfaces</sub></summary>
+
+<br>
+
+Realised the bottleneck wasn't strategy quality — it was visibility. Moved into full-stack product: trading journals with real analytics, research terminals with chart replay, dashboards that turn a stream of events into a readable position. Next.js 14, Postgres, Drizzle and Prisma, TradingView charts. Every engine got a face.
+
+</details>
+
+<details>
+<summary><b><samp>2026 · H2</samp> &nbsp;· &nbsp;Autonomous & Agentic</b> &nbsp;— <sub>24/7 engines, AI pipelines, cloud deployment</sub></summary>
+
+<br>
+
+Systems that run without me. A continuous quantitative engine on GCP trading perps on Hyperliquid, agentic pipelines that execute multi-phase business workflows unattended, LLM layers that explain machine decisions in human language. The current frontier: making autonomy *trustworthy* — observable, bounded, and reversible.
+
+</details>
+
+<br>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## <samp>06</samp> &nbsp;— &nbsp;How I Build
+
+<sub>The path every system takes, from a question to something running in production.</sub>
+
+<br>
 
 ```mermaid
-flowchart TD
-    %% Styling
-    classDef market fill:#0f172a,stroke:#00F0FF,stroke-width:2px,color:#fff
-    classDef engine fill:#1e1b4b,stroke:#7C3AED,stroke-width:2px,color:#fff
-    classDef risk fill:#450a0a,stroke:#ef4444,stroke-width:2px,color:#fff
-    classDef ui fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#fff
+flowchart LR
+    A["🔍 Research<br/><sub>hypothesis · literature · market structure</sub>"] --> B["📊 Data<br/><sub>ingest · normalise · validate</sub>"]
+    B --> C["⚗️ Backtest<br/><sub>pure engine · out-of-sample</sub>"]
+    C -->|fails| A
+    C -->|survives| D["🛡️ Risk<br/><sub>sizing · limits · kill switch</sub>"]
+    D --> E["🖥️ Interface<br/><sub>terminal · analytics · replay</sub>"]
+    E --> F["🚀 Deploy<br/><sub>GCP engine · Vercel surface</sub>"]
+    F --> G["📡 Observe<br/><sub>telemetry · alerts · outcome log</sub>"]
+    G -->|edge decays| A
 
-    subgraph Data_Sources["📡 Live Data Feed Layer"]
-        A1["Deribit Options API (BTC Chains)"] :::market
-        A2["CME FedWatch API (Interest Rates)"] :::market
-        A3["Hyperliquid Orderbook & Perps"] :::market
-    end
-
-    subgraph Quant_Engine["⚡ Quantitative Math & Logic"]
-        B1["In-Memory LRU Cache (<100ms)"] :::engine
-        B2["Black-Scholes Implied Probability N(d₂)"] :::engine
-        B3["Indicator Signals & Historical Backtest"] :::engine
-    end
-
-    subgraph Risk_Layer["🛡️ Pre-Trade Risk Control"]
-        C1["Automated Position Sizing"] :::risk
-        C2["Hard Daily Loss Limit Check"] :::risk
-        C3["Order Execution Gateway (GCP)"] :::risk
-    end
-
-    subgraph UI_Layer["💻 Live Dashboard & Monitoring"]
-        D1["Next.js / Vercel Live P&L Visualizer"] :::ui
-        D2["Prediction Market Odds vs. Wall St Divergence"] :::ui
-    end
-
-    A1 --> B1
-    A2 --> B1
-    A3 --> B3
-    B1 --> B2
-    B2 --> D2
-    B3 --> C1
-    C1 --> C2
-    C2 -- "Pass Risk Checks" --> C3
-    C3 --> D1
+    style A fill:#5E6AD2,stroke:#8B949E,color:#fff
+    style C fill:#1F6FEB,stroke:#8B949E,color:#fff
+    style D fill:#9E6A03,stroke:#8B949E,color:#fff
+    style F fill:#238636,stroke:#8B949E,color:#fff
+    style G fill:#8957E5,stroke:#8B949E,color:#fff
 ```
 
-<br/>
+<sub>**The loop matters more than the line.** A strategy that fails the backtest returns to research immediately — that's cheap. A strategy that decays in production returns to research too, and the observation layer is what tells me *when*. Nothing ships without the last two stages.</sub>
 
----
+<br>
 
-## 💼 Work Experience
+<img src="assets/divider.svg" width="100%" alt="">
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🟢 Web Developer @ Asalis Consulting                             (Jun 2026 – Present)   │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│ • Designed & developed full company website end-to-end (Visual Design + Frontend).      │
-│ • Engineered responsive, high-converting interfaces using modern TypeScript & React.     │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🤝 Backend Developer (Volunteer) @ KESH                          (Apr 2025 – Jan 2026)  │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│ • Built & maintained core backend services for a creator-athlete marketplace over 10m. │
-│ • Designed high-throughput REST APIs and optimized Postgres database query performance. │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+## <samp>07</samp> &nbsp;— &nbsp;Focus & Roadmap
 
-<br/>
+<sub>◆ &nbsp;shipped &nbsp;&nbsp;·&nbsp;&nbsp; ◇ &nbsp;in flight</sub>
 
----
+<table>
+<tr>
+<td valign="top" width="50%">
 
-## 📜 Anthropic Certifications
+**Now**
 
-- 🏆 **Claude Code 101**
-- 🏆 **Claude Code in Action**
-- 🏆 **Introduction to Agent Skills**
-- 🏆 **AI Fluency for Small Businesses (2026)**
+◆ &nbsp;Two-tier autonomous engine architecture
+<br>◆ &nbsp;Unified backtest / live execution path
+<br>◆ &nbsp;Persistent outcome logging across signal systems
+<br>◇ &nbsp;Live execution telemetry with automated kill switches
+<br>◇ &nbsp;Portfolio-level risk allocation across strategies
 
-<br/>
+</td>
+<td valign="top" width="50%">
 
----
+**Next**
 
-## 📊 GitHub Analytics & Statistics
+◇ &nbsp;ML-driven regime detection to gate strategy activation
+<br>◇ &nbsp;Execution-cost modelling: slippage, funding, fee drag
+<br>◇ &nbsp;Multi-venue routing and consolidated position view
+<br>◇ &nbsp;Public research write-ups on strategy decay
+<br>◇ &nbsp;Open-sourcing the backtesting core
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## <samp>08</samp> &nbsp;— &nbsp;Experience & Credentials
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**Experience**
+
+**Web Developer** — Asalis Consulting
+<br><sub>Jun 2026 – Present</sub>
+<br><sub>Designed and built the company website end to end, from visual design through to a responsive TypeScript/React frontend.</sub>
+
+<br>
+
+**Backend Developer** *(Volunteer)* — KESH
+<br><sub>Apr 2025 – Jan 2026</sub>
+<br><sub>Core backend services for a creator-athlete marketplace: high-throughput REST APIs and Postgres query optimisation.</sub>
+
+</td>
+<td valign="top" width="50%">
+
+**Education**
+
+**BSc, Accounting & Finance**
+<br><sub>The reason the quant work isn't cargo-culted — the models get implemented from the theory, not from a library I don't understand.</sub>
+
+<br>
+
+**Certifications** &nbsp;<sub>· Anthropic</sub>
+
+<sub>◆ &nbsp;Claude Code 101</sub>
+<br><sub>◆ &nbsp;Claude Code in Action</sub>
+<br><sub>◆ &nbsp;Introduction to Agent Skills</sub>
+<br><sub>◆ &nbsp;AI Fluency for Small Businesses (2026)</sub>
+
+<br>
+
+**Languages**
+
+<sub>English <b>C1</b> &nbsp;·&nbsp; French <b>C2</b> &nbsp;·&nbsp; Arabic <b>Native</b></sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## <samp>09</samp> &nbsp;— &nbsp;Get in Touch
 
 <div align="center">
 
-<table border="0">
-  <tr>
-    <td>
-      <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nate0004&show_icons=true&theme=dark&aria_label=Mohamed's+GitHub+Stats&hide_border=true&bg_color=0d1117&title_color=00F0FF&icon_color=00F0FF&text_color=94a3b8" />
-    </td>
-    <td>
-      <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nate0004&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=94a3b8" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user=nate0004&theme=dark&hide_border=true&background=0d1117&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF" />
-    </td>
-  </tr>
-</table>
+<sub>Open to remote quantitative engineering and full-stack roles worldwide, and to relocation.<br>EU hours with US East overlap.</sub>
+
+<br><br>
+
+| | | | |
+| :---: | :---: | :---: | :---: |
+| **[LinkedIn](https://linkedin.com/in/mohamed-ouaked)** | **[GitHub](https://github.com/nate0004)** | **[X / Twitter](https://x.com/berso444)** | **[Résumé](https://app.notion.com/p/Moha-Resume-f107974e66328298a95f013d754e75c0)** |
+| <sub>the record</sub> | <sub>the work</sub> | <sub>the thinking</sub> | <sub>the summary</sub> |
+
+<br>
+
+**[✉️ &nbsp;okd.moha@gmail.com](mailto:okd.moha@gmail.com)**
 
 </div>
 
-<br/>
+<br>
 
----
-
-## 📬 Connect & Collaborate
+<img src="assets/divider.svg" width="100%" alt="">
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohamed-ouaked)
-[![Email](https://img.shields.io/badge/Email-okd.moha@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:okd.moha@gmail.com)
-[![GitHub Profile Views](https://komarev.com/ghpvc/?username=nate0004&color=00F0FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/nate0004)
+<br>
 
-<br/>
+### *"Alpha decays. Systems compound."*
 
-**⚡ Open to Remote Quantitative Engineering / Full-Stack Roles worldwide & Relocation (EU & US East overlap)**
+<sub>Built by **Mohamed Ouaked** &nbsp;·&nbsp; <samp>nate0004</samp></sub>
 
----
-
-<sub><i>Designed with precision by <a href="https://github.com/nate0004">Mohamed Ouaked</a></i></sub>
+<br>
 
 </div>
