@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-label="Build pipeline: research, data, backtest, risk, interface, deploy, observe — looping back to research">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF2FA"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#334155" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <style>
+    .flow { animation: flow 1.6s linear infinite; }
+    .flow.slow { animation-duration: 2.6s; }
+    .lift { animation: lift 5.4s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -32 } }
+    @keyframes lift { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-7px) } }
+    @media (prefers-reduced-motion: reduce) { .flow,.lift { animation: none } }
+  </style>
+
+  <rect width="1200" height="420" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="16" fill="url(#grid)"/>
+
+    <path class="flow" style="animation-delay:0.00s" d="M156 196 L217 211.66653819254967" stroke="#0891B2" stroke-width="1.6" stroke-opacity="0.75" stroke-dasharray="7 9" fill="none"/>
+    <path class="flow" style="animation-delay:0.30s" d="M321 211.66653819254967 L382 215.4769526175639" stroke="#0891B2" stroke-width="1.6" stroke-opacity="0.75" stroke-dasharray="7 9" fill="none"/>
+    <path class="flow" style="animation-delay:0.60s" d="M486 215.4769526175639 L547 204.54759760467658" stroke="#0891B2" stroke-width="1.6" stroke-opacity="0.75" stroke-dasharray="7 9" fill="none"/>
+    <path class="flow" style="animation-delay:0.90s" d="M651 204.54759760467658 L712 187.14959113410296" stroke="#0891B2" stroke-width="1.6" stroke-opacity="0.75" stroke-dasharray="7 9" fill="none"/>
+    <path class="flow" style="animation-delay:1.20s" d="M816 187.14959113410296 L877 176.44939764669806" stroke="#0891B2" stroke-width="1.6" stroke-opacity="0.75" stroke-dasharray="7 9" fill="none"/>
+    <path class="flow" style="animation-delay:1.50s" d="M981 176.44939764669806 L1042 180.54471024888025" stroke="#0891B2" stroke-width="1.6" stroke-opacity="0.75" stroke-dasharray="7 9" fill="none"/>
+    <path class="flow slow" d="M1094 232.54471024888025 C 1094 372, 104 372, 104 248"
+      stroke="#BE185D" stroke-width="1.6" stroke-opacity="0.8" stroke-dasharray="8 10" fill="none"/>
+    <text x="600" y="392" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.4" fill="#BE185D">EDGE DECAYS &#8594; BACK TO RESEARCH</text>
+    <path class="flow slow" d="M434 267.47695261756394 C 434 320, 104 320, 104 248"
+      stroke="#BE185D" stroke-width="1.4" stroke-opacity="0.55" stroke-dasharray="6 8" fill="none"/>
+    <text x="269" y="338" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#475569">FAILS THE TEST</text>
+    <g class="lift" style="animation-delay:0.00s">
+      <ellipse cx="104" cy="256" rx="41.6" ry="7" fill="#4338ca" fill-opacity="0.12"/>
+      <polygon points="156,196 104,225 104,240 156,211" fill="#251f6f"/>
+      <polygon points="52,196 104,225 104,240 52,211" fill="#181449"/>
+      <polygon points="104,167 156,196 104,225 52,196" fill="#4a3ede"/>
+      <polygon points="104,167 156,196 104,225 52,196" fill="none" stroke="#6857ff" stroke-width="1" stroke-opacity="0.65"/>
+      <circle cx="104" cy="196" r="4.5" fill="#725fff"/>
+      <text x="104" y="141" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#0B1120">RESEARCH</text>
+      <text x="104" y="156" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, sans-serif" font-size="10.5" fill="#475569">hypothesis</text>
+    </g>
+    <g class="lift" style="animation-delay:0.42s">
+      <ellipse cx="269" cy="271.66653819254964" rx="41.6" ry="7" fill="#3948ba" fill-opacity="0.12"/>
+      <polygon points="321,211.66653819254967 269,240.66653819254967 269,255.66653819254967 321,226.66653819254967" fill="#1f2866"/>
+      <polygon points="217,211.66653819254967 269,240.66653819254967 269,255.66653819254967 217,226.66653819254967" fill="#151a43"/>
+      <polygon points="269,182.66653819254967 321,211.66653819254967 269,240.66653819254967 217,211.66653819254967" fill="#3f4fcd"/>
+      <polygon points="269,182.66653819254967 321,211.66653819254967 269,240.66653819254967 217,211.66653819254967" fill="none" stroke="#5870ff" stroke-width="1" stroke-opacity="0.65"/>
+      <circle cx="269" cy="211.66653819254967" r="4.5" fill="#617aff"/>
+      <text x="269" y="156.66653819254967" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#0B1120">DATA</text>
+      <text x="269" y="171.66653819254967" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, sans-serif" font-size="10.5" fill="#475569">ingest · validate</text>
+    </g>
+    <g class="lift" style="animation-delay:0.84s">
+      <ellipse cx="434" cy="275.47695261756394" rx="41.6" ry="7" fill="#2e57aa" fill-opacity="0.12"/>
+      <polygon points="486,215.4769526175639 434,244.4769526175639 434,259.47695261756394 486,230.4769526175639" fill="#19305e"/>
+      <polygon points="382,215.4769526175639 434,244.4769526175639 434,259.47695261756394 382,230.4769526175639" fill="#111f3d"/>
+      <polygon points="434,186.4769526175639 486,215.4769526175639 434,244.4769526175639 382,215.4769526175639" fill="#3360bb"/>
+      <polygon points="434,186.4769526175639 486,215.4769526175639 434,244.4769526175639 382,215.4769526175639" fill="none" stroke="#4787ff" stroke-width="1" stroke-opacity="0.65"/>
+      <circle cx="434" cy="215.4769526175639" r="4.5" fill="#4e94ff"/>
+      <text x="434" y="160.4769526175639" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#0B1120">BACKTEST</text>
+      <text x="434" y="175.4769526175639" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, sans-serif" font-size="10.5" fill="#475569">pure engine</text>
+    </g>
+    <g class="lift" style="animation-delay:1.26s">
+      <ellipse cx="599" cy="264.5475976046766" rx="41.6" ry="7" fill="#24679a" fill-opacity="0.12"/>
+      <polygon points="651,204.54759760467658 599,233.54759760467658 599,248.54759760467658 651,219.54759760467658" fill="#143955"/>
+      <polygon points="547,204.54759760467658 599,233.54759760467658 599,248.54759760467658 547,219.54759760467658" fill="#0d2537"/>
+      <polygon points="599,175.54759760467658 651,204.54759760467658 599,233.54759760467658 547,204.54759760467658" fill="#2871a9"/>
+      <polygon points="599,175.54759760467658 651,204.54759760467658 599,233.54759760467658 547,204.54759760467658" fill="none" stroke="#38a0ef" stroke-width="1" stroke-opacity="0.65"/>
+      <circle cx="599" cy="204.54759760467658" r="4.5" fill="#3dafff"/>
+      <text x="599" y="149.54759760467658" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#0B1120">RISK</text>
+      <text x="599" y="164.54759760467658" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, sans-serif" font-size="10.5" fill="#475569">sizing · limits</text>
+    </g>
+    <g class="lift" style="animation-delay:1.68s">
+      <ellipse cx="764" cy="247.14959113410296" rx="41.6" ry="7" fill="#1a7789" fill-opacity="0.12"/>
+      <polygon points="816,187.14959113410296 764,216.14959113410296 764,231.14959113410296 816,202.14959113410296" fill="#0e414b"/>
+      <polygon points="712,187.14959113410296 764,216.14959113410296 764,231.14959113410296 712,202.14959113410296" fill="#092b31"/>
+      <polygon points="764,158.14959113410296 816,187.14959113410296 764,216.14959113410296 712,187.14959113410296" fill="#1d8397"/>
+      <polygon points="764,158.14959113410296 816,187.14959113410296 764,216.14959113410296 712,187.14959113410296" fill="none" stroke="#28b8d4" stroke-width="1" stroke-opacity="0.65"/>
+      <circle cx="764" cy="187.14959113410296" r="4.5" fill="#2ccae9"/>
+      <text x="764" y="132.14959113410296" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#0B1120">INTERFACE</text>
+      <text x="764" y="147.14959113410296" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, sans-serif" font-size="10.5" fill="#475569">terminal · replay</text>
+    </g>
+    <g class="lift" style="animation-delay:2.10s">
+      <ellipse cx="929" cy="236.44939764669806" rx="41.6" ry="7" fill="#0f8679" fill-opacity="0.12"/>
+      <polygon points="981,176.44939764669806 929,205.44939764669806 929,220.44939764669806 981,191.44939764669806" fill="#084a43"/>
+      <polygon points="877,176.44939764669806 929,205.44939764669806 929,220.44939764669806 877,191.44939764669806" fill="#05302c"/>
+      <polygon points="929,147.44939764669806 981,176.44939764669806 929,205.44939764669806 877,176.44939764669806" fill="#119385"/>
+      <polygon points="929,147.44939764669806 981,176.44939764669806 929,205.44939764669806 877,176.44939764669806" fill="none" stroke="#17d0bc" stroke-width="1" stroke-opacity="0.65"/>
+      <circle cx="929" cy="176.44939764669806" r="4.5" fill="#1ae4ce"/>
+      <text x="929" y="121.44939764669806" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#0B1120">DEPLOY</text>
+      <text x="929" y="136.44939764669806" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, sans-serif" font-size="10.5" fill="#475569">GCP · Vercel</text>
+    </g>
+    <g class="lift" style="animation-delay:2.52s">
+      <ellipse cx="1094" cy="240.54471024888025" rx="41.6" ry="7" fill="#059669" fill-opacity="0.12"/>
+      <polygon points="1146,180.54471024888025 1094,209.54471024888025 1094,224.54471024888025 1146,195.54471024888025" fill="#03533a"/>
+      <polygon points="1042,180.54471024888025 1094,209.54471024888025 1094,224.54471024888025 1042,195.54471024888025" fill="#023626"/>
+      <polygon points="1094,151.54471024888025 1146,180.54471024888025 1094,209.54471024888025 1042,180.54471024888025" fill="#06a574"/>
+      <polygon points="1094,151.54471024888025 1146,180.54471024888025 1094,209.54471024888025 1042,180.54471024888025" fill="none" stroke="#08e9a3" stroke-width="1" stroke-opacity="0.65"/>
+      <circle cx="1094" cy="180.54471024888025" r="4.5" fill="#09ffb3"/>
+      <text x="1094" y="125.54471024888025" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#0B1120">OBSERVE</text>
+      <text x="1094" y="140.54471024888025" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, sans-serif" font-size="10.5" fill="#475569">telemetry</text>
+    </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="16" stroke="#0B1120" stroke-opacity="0.1"/>
+</svg>

@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Moha — Systems that trade, think, and ship" src="assets/hero-dark.svg" width="100%">
+  <img alt="Mohamed Ouaked — Systems that trade, think, and ship" src="assets/hero-dark.svg" width="100%">
 </picture>
 
 <br>
@@ -103,6 +103,14 @@ Automation should remove the repetition, not the judgement. The bot sizes the po
 ## <samp>03</samp> &nbsp;— &nbsp;Technical Arsenal
 
 <sub>Grouped by the problem it solves, not by the logo on the sticker.</sub>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/arsenal-light.svg">
+  <img alt="Technical domains: frontend, backend, AI, data, quant, devops" src="assets/arsenal-dark.svg" width="100%">
+</picture>
 
 <br>
 
@@ -274,25 +282,28 @@ Systems that run without me. A continuous quantitative engine on GCP trading per
 
 <br>
 
-```mermaid
-flowchart LR
-    A["🔍 Research<br/><sub>hypothesis · literature · market structure</sub>"] --> B["📊 Data<br/><sub>ingest · normalise · validate</sub>"]
-    B --> C["⚗️ Backtest<br/><sub>pure engine · out-of-sample</sub>"]
-    C -->|fails| A
-    C -->|survives| D["🛡️ Risk<br/><sub>sizing · limits · kill switch</sub>"]
-    D --> E["🖥️ Interface<br/><sub>terminal · analytics · replay</sub>"]
-    E --> F["🚀 Deploy<br/><sub>GCP engine · Vercel surface</sub>"]
-    F --> G["📡 Observe<br/><sub>telemetry · alerts · outcome log</sub>"]
-    G -->|edge decays| A
-
-    style A fill:#5E6AD2,stroke:#8B949E,color:#fff
-    style C fill:#1F6FEB,stroke:#8B949E,color:#fff
-    style D fill:#9E6A03,stroke:#8B949E,color:#fff
-    style F fill:#238636,stroke:#8B949E,color:#fff
-    style G fill:#8957E5,stroke:#8B949E,color:#fff
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pipeline-light.svg">
+  <img alt="Build pipeline: research → data → backtest → risk → interface → deploy → observe, looping back to research" src="assets/pipeline-dark.svg" width="100%">
+</picture>
 
 <sub>**The loop matters more than the line.** A strategy that fails the backtest returns to research immediately — that's cheap. A strategy that decays in production returns to research too, and the observation layer is what tells me *when*. Nothing ships without the last two stages.</sub>
+
+<!--
+  ── SIGNALS PANEL (lowlighter/metrics) ────────────────────────────────────
+  Uncomment this block AFTER running .github/workflows/metrics.yml once, so
+  the SVGs exist. Referencing them before that renders broken images.
+  Setup instructions are in the workflow file header.
+
+<br>
+
+<div align="center">
+  <img src="assets/metrics/isocalendar.svg" alt="Isometric contribution calendar" width="49%">
+  <img src="assets/metrics/languages.svg" alt="Language distribution" width="49%">
+</div>
+-->
+
 
 <br>
 
