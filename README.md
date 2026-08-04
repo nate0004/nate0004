@@ -16,7 +16,7 @@
 
 <br>
 
-[**Work**](#03--featured-work) &nbsp;·&nbsp; [**Stack**](#02--technical-arsenal) &nbsp;·&nbsp; [**Method**](#05--how-i-build) &nbsp;·&nbsp; [**Track record**](#07--track-record) &nbsp;·&nbsp; [**Contact**](#08--get-in-touch)
+[**Stack**](#02--technical-arsenal) &nbsp;·&nbsp; [**Journey**](#03--the-journey) &nbsp;·&nbsp; [**Method**](#04--how-i-build) &nbsp;·&nbsp; [**Roadmap**](#05--roadmap) &nbsp;·&nbsp; [**Track record**](#06--track-record) &nbsp;·&nbsp; [**Contact**](#07--get-in-touch)
 
 </div>
 
@@ -93,84 +93,7 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## <samp>03</samp> &nbsp;— &nbsp;Featured Work
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**Kesh Quant** &nbsp;<sub>· autonomous perps engine</sub>
-<br><sub>*Markets run 24/7. Traders don't.*</sub>
-
-Hyperliquid WebSocket → features → confluence filter → risk-sized orders, continuously on GCP. A Next.js terminal reads engine state over an authenticated tunnel, so watching never blocks trading.
-
-<sub>`Python` `FastAPI` `Hyperliquid` `Next.js` `GCP`</sub>
-
-[**Repository →**](https://github.com/nate0004/crypto-bot) &nbsp;<sub>🔒 private deployment</sub>
-
-</td>
-<td valign="top" width="50%">
-
-**ORB Terminal** &nbsp;<sub>· backtesting + paper trading</sub>
-<br><sub>*A win rate without a replay is a rumour.*</sub>
-
-Every backtested trade replays candle-by-candle against the higher-timeframe ICT/SMC bias that allowed it. Persistent paper account; the engine is under test, so refactors can't rewrite history.
-
-<sub>`Next.js 14` `Drizzle` `Neon` `lightweight-charts` `Vitest`</sub>
-
-<sub>🔒 Private repo — walkthrough on request.</sub>
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-**Polymarket vs. Wall Street** &nbsp;<sub>· probability divergence</sub>
-<br><sub>*Two markets, one event, two prices.*</sub>
-
-Normalises prediction-market odds and derivatives pricing into one probability space — CME FedWatch for rate events, Deribit BTC options via Black-Scholes N(d₂). **Sub-100 ms** via LRU caching.
-
-<sub>`Next.js 14` `Deribit` `CME FedWatch` `Black-Scholes`</sub>
-
-[**Repository →**](https://github.com/nate0004/polymarket-vs-wallstreet) &nbsp;<sub>🔒 no hosted instance</sub>
-
-</td>
-<td valign="top" width="50%">
-
-**ICT 2022 Signal Bot** &nbsp;<sub>· signal-only, NAS100</sub>
-<br><sub>*The hard part is choosing what not to automate.*</sub>
-
-Detection logic is pure functions with zero I/O: live feeds it closed M1 bars, backtest replays history through the identical path. Signals stored with outcomes. It never places an order.
-
-<sub>`Python` `Capital.com` `SQLite` `Telegram`</sub>
-
-[**Repository →**](https://github.com/nate0004/ict-signal-bot)
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>&nbsp;Also in the workshop</b> &nbsp;<sub>— six more</sub></summary>
-
-<br>
-
-| Project | What it does |
-| :--- | :--- |
-| **[TradeJournal](https://github.com/nate0004/trading-journal)** | CSV-first journal built on the metrics that reveal an edge — expectancy, profit factor, R:R, equity curve, splits by pair/tag/session. |
-| **[Outreach Pipeline v2](https://github.com/nate0004/outreach-dashboard-v2)** | Four-phase autonomous B2B pipeline: leads → AI mockup pages → AI cold email → follow-up cron. |
-| **[Stock Checker](https://github.com/nate0004/stock-checker)** | Multi-ticker scanner: RSI, Stochastic, Bollinger, Donchian, Williams %R, ATR stops, weighted signal scoring. |
-| **[OVN Breakout Bots](https://github.com/nate0004/ovn-breakout-bot)** | Overnight-range breakout productionised across [NAS100](https://github.com/nate0004/nas100-ovn-bot) and [MNQ](https://github.com/nate0004/mnq-ovn-bot) via MetaTrader 5. |
-| **[Kesh Investment](https://github.com/nate0004/Kesh-Investment)** | Investment-facing surface for the Kesh systems. |
-| **[Gamified Journal](https://github.com/nate0004/gamified-journal)** | Trading discipline as a game loop — streaks and scoring on process, not P&L. |
-
-</details>
-
-<br>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## <samp>04</samp> &nbsp;— &nbsp;The Journey
+## <samp>03</samp> &nbsp;— &nbsp;The Journey
 
 <details>
 <summary><b><samp>2024</samp> &nbsp;Foundations</b> &nbsp;<sub>— market data, Python, indicator maths</sub></summary>
@@ -212,7 +135,7 @@ Systems that run without me: a continuous engine on GCP, agent pipelines executi
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## <samp>05</samp> &nbsp;— &nbsp;How I Build
+## <samp>04</samp> &nbsp;— &nbsp;How I Build
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
@@ -237,7 +160,7 @@ Systems that run without me: a continuous engine on GCP, agent pipelines executi
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## <samp>06</samp> &nbsp;— &nbsp;Roadmap
+## <samp>05</samp> &nbsp;— &nbsp;Roadmap
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/roadmap-dark.svg">
@@ -249,7 +172,7 @@ Systems that run without me: a continuous engine on GCP, agent pipelines executi
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## <samp>07</samp> &nbsp;— &nbsp;Track Record
+## <samp>06</samp> &nbsp;— &nbsp;Track Record
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/credentials-dark.svg">
@@ -261,7 +184,7 @@ Systems that run without me: a continuous engine on GCP, agent pipelines executi
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## <samp>08</samp> &nbsp;— &nbsp;Get in Touch
+## <samp>07</samp> &nbsp;— &nbsp;Get in Touch
 
 <div align="center">
 
