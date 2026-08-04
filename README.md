@@ -24,6 +24,22 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://contribution.oooo.so/_/nate0004?chart=3dbar&amp;gap=0.6&amp;scale=2&amp;flatten=0&amp;gradient=false&amp;legend=true&amp;legendPosition=bottomLeft&amp;legendDirection=row&amp;strokeWidth=2&amp;strokeColor=222222&amp;weeks=30&amp;theme=cyan&amp;dark=true&amp;format=svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://contribution.oooo.so/_/nate0004?chart=3dbar&amp;gap=0.6&amp;scale=2&amp;flatten=0&amp;gradient=false&amp;legend=true&amp;legendPosition=bottomLeft&amp;legendDirection=row&amp;strokeWidth=2&amp;strokeColor=222222&amp;weeks=30&amp;theme=cyan&amp;dark=false&amp;format=svg">
+  <img alt="Commit activity over the last 30 weeks as a 3D isometric bar chart" src="https://contribution.oooo.so/_/nate0004?chart=3dbar&amp;gap=0.6&amp;scale=2&amp;flatten=0&amp;gradient=false&amp;legend=true&amp;legendPosition=bottomLeft&amp;legendDirection=row&amp;strokeWidth=2&amp;strokeColor=222222&amp;weeks=30&amp;theme=cyan&amp;dark=true&amp;format=svg" width="82%">
+</picture>
+
+<sub><samp>COMMIT ACTIVITY &nbsp;·&nbsp; LAST 30 WEEKS</samp></sub>
+
+</div>
+
+<br>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 ## <samp>01</samp> &nbsp;— &nbsp;Current Mission
 
 <table>
